@@ -3,6 +3,10 @@
    width: 500px;
    height:250px;
    text-align: center;
+<<<<<<< HEAD
+ 
+=======
+>>>>>>> 21e2f40c8f9cba29b675ef144094abd710746173
    }
 #salidaTexto {
     border: 1px solid;
@@ -10,6 +14,27 @@
    height: 250px;
    text-align: center;
 }
+<<<<<<< HEAD
+
+
+#box {
+border:1px solid;
+width: 40%;
+margin-left: 25%;
+float: left;
+}
+
+#option {
+    border: 1px solid;
+    width: 200px;
+    margin-top: 7%;
+    padding: 20px;
+    float: left;
+}
+#offSet {
+    width: 20%;
+    float: left;
+=======
 center {border: solid;
 }
 #option {
@@ -18,6 +43,7 @@ center {border: solid;
     float: left;
     margin-top: 10%;
 
+<<<<<<< HEAD
 }
 
 button{
@@ -41,4 +67,7 @@ margin-top: 5%;
     border: 1px solid;
     width: 75%;
     float: left;
+=======
+>>>>>>> 21e2f40c8f9cba29b675ef144094abd710746173
+>>>>>>> 712e87811bd22e8a864426564b7e5b7f0d79db41
 }
