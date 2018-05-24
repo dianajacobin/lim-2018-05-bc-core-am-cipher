@@ -5,9 +5,33 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div id="root"></div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+
+    <center>
+    <h1>Messages Top Secret</h1>
+    </center>
+     <br><br>
+    <section id="box">
+    <input  id="ingresoTexto" placeholder="Ingresa Texto" type="text"></input>
+    <br><br>
+    <section id="salidaTexto"> </section>  
+    </section>
+
+    <section id="option">
+      <p>Ingresar un número para realizar la operación solicitada</p>
+      <input id="offSet" type="text">
+      <br><br>
+      <button type="button">Cifrado</button>
+      <br><br>
+      <button type="button">Descifrado</button>
+      <br><br>
+    </section>  
+    <br><br><br>
+ 
+  <div id="root"></div>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
   </body>
+
 </html>

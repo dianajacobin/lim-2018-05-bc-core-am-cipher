@@ -1,0 +1,33 @@
+#ingresoTexto {
+    border: 1px solid;
+   width: 500px;
+   height:250px;
+   text-align: center;
+ 
+   }
+#salidaTexto {
+    border: 1px solid;
+    width: 500px;
+   height: 250px;
+   text-align: center;
+}
+
+
+#box {
+border:1px solid;
+width: 40%;
+margin-left: 25%;
+float: left;
+}
+
+#option {
+    border: 1px solid;
+    width: 200px;
+    margin-top: 7%;
+    padding: 20px;
+    float: left;
+}
+#offSet {
+    width: 20%;
+    float: left;
+}
