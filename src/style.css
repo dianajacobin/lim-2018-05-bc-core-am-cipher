@@ -31,3 +31,8 @@ float: left;
     width: 20%;
     float: left;
 }
+
+footer {
+    margin-left: 80%;
+    margin-top: 50%
+}
