@@ -7,15 +7,24 @@
   </head>
 
   <body>
-
-    <center>
-    <h1>Messages Top Secret</h1>
-    <input  id="ingresoTexto" placeholder="Ingresa Texto" type="text"></input>
-    <section id="option"><input type="checkbox">Cifrado</input><br><input type="checkbox">Descrifrado</input><br></section>
-    <br><br><br>
-    <section id="salidaTexto"> </section>  
-    </center>
+<center id="contenedor">
+      <section>
+      <h1>Messages Top Secret</h1>
+      <input  id="ingresoTexto" placeholder="Ingresa Texto" type="text"></input>  
+      <br><br><br>
+      <section id="salidaTexto"> </section>  
+      </section>
     
+      <br>
+    </center>
+
+    <aside id="option">
+      <p>Ingresa un número para empezar con el cifrado</p>
+    <input id="setOff" type="text"><br><br>
+    <button type="button">Cifrar</button><br>
+    <button type="button">Descifrar</button>
+    </aside>
+
   <div id="root"></div>
   <script src="cipher.js"></script>
   <script src="index.js"></script>
