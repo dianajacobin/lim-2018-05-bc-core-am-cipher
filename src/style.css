@@ -1,27 +1,27 @@
 #ingresoTexto {
-    border: 1px solid;
+    border: 2px solid gainsboro;
    width: 500px;
    height:250px;
    text-align: center;
  
    }
 #salidaTexto {
-    border: 1px solid;
-    width: 500px;
+    border: 2px solid gainsboro;
+     width: 500px;
    height: 250px;
    text-align: center;
 }
 
 
 #box {
-border:1px solid;
+
 width: 40%;
 margin-left: 25%;
 float: left;
 }
 
 #option {
-    border: 1px solid;
+  
     width: 200px;
     margin-top: 7%;
     padding: 20px;
