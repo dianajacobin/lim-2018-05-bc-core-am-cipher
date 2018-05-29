@@ -1,7 +1,8 @@
 window.cipher = {
-      encode: (string, offset) => 
+      encode: (offset,string) => 
       {
         let result = "", code;
+        
         for (let i=0; i<string.length;i++)
     
         {
@@ -17,6 +18,7 @@ window.cipher = {
         }
         return result;
       },
+
       decode: (string, offset) => {
         let result = "", code;
         for (let i=0; i<string.length;i++)
@@ -35,5 +37,5 @@ window.cipher = {
         return result;
       },
 
- createCipherWithOffset: (offset) => {}
+ //createCipherWithOffset: (offset) => {}
 };
