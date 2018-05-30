@@ -1,14 +1,15 @@
 
-const  Num=document.getElementById("number"),
-       phrase=document.getElementById("ingresoTexto");
+const  phrase=document.getElementById("ingresoTexto");
+const  Num=document.getElementById("number");
+
 
     // cipher.encode(Num.value,phrase.value);
     // cipher.decode(Num.value,phrase.value);
 
-      const bCifrado=()=>{ document.getElementById("salidaTexto").innerHTML= cipher.encode(Num.value,phrase.value)}
+      const bCifrado=()=>{ document.getElementById("salidaTexto").innerHTML= cipher.encode(phrase.value,parseInt(Num.value))}
       document.getElementById("btnCifrado").addEventListener("click",bCifrado);
 
-      const bDescifrado=()=>{ document.getElementById("salidaTexto").innerHTML= cipher.decode(Num.value,phrase.value)}
+      const bDescifrado=()=>{ document.getElementById("salidaTexto").innerHTML= cipher.decode(phrase.value,parseInt(Num.value))}
       document.getElementById("btnDescifrado").addEventListener("click",bDescifrado);
 
           

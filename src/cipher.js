@@ -1,5 +1,5 @@
 window.cipher = {
-      encode: (offset,string) => 
+      encode: (string,offset) => 
       {
         let result = "", code;
         
