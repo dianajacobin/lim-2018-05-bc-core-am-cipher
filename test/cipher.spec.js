@@ -10,8 +10,13 @@ describe('cipher', () => {
       assert.equal(typeof cipher.encode, 'function');
     });
 
-    it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offest 33');
-  });
+    it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offest 33', ()=> {
+      assert.equal( cipher.encode("ABCDEFGHIJKLMNOPQRSTUVWXYZ",33) ,"HIJKLMNOPQRSTUVWXYZABCDEFG" )
+      });
+
+    it('debería retornar "hijklmnopqrstuvwxyzabcdefg" para "abcdefghijklmnopqrstuvwxyz" con offest 33',()=>{});
+
+});
 
   describe('cipher.decode', () => {
 
@@ -20,7 +25,12 @@ describe('cipher', () => {
     });
 
     it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offest 33');
-  });
+ 
+    it('debería retornar "abcdefghijklmnopqrstuvwxyz" para "hijklmnopqrstuvwxyzabcdefg" con offest 33');
+    
+    assert.strictEqual(true, true, '32');
+    
+      });
 
   describe('cipher.createCipherWithOffset', () => {
 
