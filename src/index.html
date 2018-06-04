@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
+<body>
+  <div id="contenedor">
     <center>
-    <br><br>
-    <h1>Messages Top Secret</h1>
+      <br>
+      <br>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh1IwRyPrc-6fPf2FT-WiKxSOFDAVp6m-PZnCigg_hCqZHCKCo" width="100" height="100">
+      <h1>Messages Top Secret</h1>
     </center>
-     <br><br><br>
-    <section id="box">
-    <input  id="ingresoTexto" placeholder="Ingresa Texto" type="text"></input>
-    <br><br>
-    <section id="salidaTexto" > </section>  
+      <section id="option">
+      <h4>Ingrese un número:</h4>
+      <input id="number" type="text" />
+      <button type="button" id="btnCifrado">Cifrado</button>
+      <button type="button" id="btnDescifrado">Descifrado</button>
+      <br>
+      <br>
     </section>
-
-    <section id="option">
-      <p>Ingresar un número para realizar la operación solicitada</p>
-      <input id="Number" type="text">
-      <br><br>
-      <button type="button" id="Cifrado">Cifrado</button>
-      <br><br>
-      <button type="button" id="Descrifrado">Descifrado</button>
-      <br><br>
-    </section>  
-    <br><br><br>
- 
-  <div id="root"></div>
+    <br>
+    <br>
+    <br>
+    <section id="box">
+      <input id="ingresoTexto" placeholder="Ingresa Texto" type="text" />
+      <br>
+      <br>
+      <p id="salidaTexto"> </p>
+    </section>
+    <br>
+    <footer>Realized by Diana J.</footer>
+  </div>
   <script src="cipher.js"></script>
   <script src="index.js"></script>
-  <footer>Realizado by Diana J.</p>
-  </body>
-
+</body>
 </html>
